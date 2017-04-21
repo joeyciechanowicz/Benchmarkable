@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Benchmarkable</id>
+    <version>$version$</version>
+    <title>Easy benchmarks that are statistically accurate</title>
+    <authors>Joey Ciechanowicz</authors>
+    <owners>joeyciechanowicz</owners>
+    <licenseUrl>https://github.com/bodyloss/Benchmarkable/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://github.com/bodyloss/Benchmarkable</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Benchmark tool that aims to provide low error benchmark results using statistical methods</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>benchmark profile statistics fluent timing performance</tags>
+  </metadata>
+</package>

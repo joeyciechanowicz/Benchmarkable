@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{68B3ADDC-3F9E-4205-A471-21D553966F7F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>BenchmarkIt</RootNamespace>
-    <AssemblyName>BenchmarkIt</AssemblyName>
+    <RootNamespace>Benchmarkable</RootNamespace>
+    <AssemblyName>Benchmarkable</AssemblyName>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>

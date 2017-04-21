@@ -70,7 +70,7 @@ The settings must be changed *before* creating a benchmark.
 | `Benchmark.Settings.InitialBatchTime`     | 500ms   | The time to run a benchmark method for initially to calculate the batch size                            |
 | `Benchmark.Settings.MinimumErrorToAccept` | 1.0     | Error % over the last 10 (default) batches to accept as a valid benchmark result                        |
 | `Benchmark.Settings.BatchesToWorkAcross`  | 10      | Number of batches to calculate statistics across (and thus error%)                                      |
-| ``Benchmark.Settings.MaxTime`             | 5000ms  | Maximum time to run a single method for before terminating, this is if the error % has not yet been met |
+| `Benchmark.Settings.MaxTime`             | 5000ms  | Maximum time to run a single method for before terminating, this is if the error % has not yet been met |
 | `Benchmark.Settings.Verbose`              | false   | Print outinformation as a benchmark is run.                                                             |
 
 
