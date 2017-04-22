@@ -18,14 +18,14 @@ Lets say you wanted to see if string.Contains was faster or slower than using a 
 ```csharp
 var haystack = "abcdef";
 Benchmark.This(() => haystack.Contains("ef"), "string.Contains")
-    .Against(() => new Regex("ef").IsMatch(haystack), "string.IndexOf")
+    .Against(() => new Regex("ef").IsMatch(haystack), "Regex.IsMatch")
     .Print();
 ```
 ```
 Label            |Runs      |Ops/Sec                  |Times slower
 -----------------+----------+-------------------------+---------------
 string.Contains  |27        |13,773,246 +/-3.460%     |1.000x
-string.IndexOf   |10        |459,500 +/-9.674%        |29.974x
+Regex.IsMatch    |10        |459,500 +/-9.674%        |29.974x
 ```
 
 ### Single method
