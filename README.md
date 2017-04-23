@@ -1,7 +1,7 @@
 Benchmarkable
 ===========
 
-Simple easy .NET benchmarking for little bits of code that uses probability to give oyu accurate results regardless of how fast your CPU is. When you benchmark a method it will do a sample run to 
+Simple easy .NET benchmarking for little bits of code that uses probability to give you accurate results regardless of how fast your CPU is. When you benchmark a method it will do a sample run to 
 see how many iterations per batch it should run of your method. Then it will run batch after batch until the error percentage is below 1% (the default, this can be changed though). 
 
 The idea is that even if your CPU is insanely fast or really slow you will still get a statistically accurate result. 
